@@ -1,0 +1,14 @@
+H1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+form{
+    text-align: center;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
