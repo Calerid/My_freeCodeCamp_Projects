@@ -8,4 +8,7 @@ p{
 }
 form{
     text-align: center;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
