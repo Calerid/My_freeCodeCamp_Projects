@@ -9,30 +9,29 @@
     <script src="<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script></source></header>
 </header>
 <body>
-    <div>
-    <h1 id="title">freeCodeCamp: Cats a mistake?</h1>
-    <p id="description">Welcome to this survey! We are testing for opinions on freeCodeCamp being so cat-centric. Dogs being clearly far superior are left out in the cold. We want your opinion on this issue. Do you think freeCodeCamp should give up on the demonic hell spawn and become more friendly with <i>"Man's Best Friend"?</i></p>
-</div>
-<form action="survey-form">
-    <fieldset>
-        <legend>User Information</legend>
-            <label for="name" id="name-label">Name: </label>
-            <input name="name" type="text">
-
-            <label name="email" id="email-label">Email: </label>
-            <input name="email" type="text">
-
-            <label for="number" id="number-label">Phone: </label>
-            <input name="number" type="text">
-        </fieldset>
+<div id="container">    
+        <div>
+        <h1 id="title">freeCodeCamp: Cats a mistake?</h1>
+        <p id="description">Welcome to this survey! We are testing for opinions on freeCodeCamp being so cat-centric. Dogs being clearly far superior are left out in the cold. We want your opinion on this issue. Do you think freeCodeCamp should give up on the demonic hell spawn and become more friendly with <i>"Man's Best Friend"?</i></p>
+        </div>
+    <form action="survey-form">
         <fieldset>
-            <legend>Dogs vs Cats</legend>
-            <p>Are you a dog person, or a cat person?</p>
-            <label for="dogs">Dogs</label>
-            <input type="radio" name="dogs" id="dogs">
-            <label for="cats">Cats</label>
-            <input type="radio" name="cats" id="cats">
-        </fieldset>
-    </form>
+                 <legend>User Information</legend>
+                <label for="name" id="name-label">Name:
+                <input name="name" type="text"></label>
+                <label name="email" id="email-label">Email:
+                <input name="email" type="text"></label>
+                <label for="number" id="number-label">Phone:
+                <input name="number" type="text"></label>
+                <legend><b>Do you prefer dogs or cats?</b></legend>
+                <hr>
+                <label for="dogs">Dogs
+                <input type="radio" name="dogs" id="dogs"></label>
+                <label for="cats">Cats
+                <input type="radio" name="cats" id="cats"></label>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+</div>    
 </body>
 </html>
