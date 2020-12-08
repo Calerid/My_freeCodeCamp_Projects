@@ -1,18 +1,21 @@
-/* Nav Section*/
+/* NAV elements */
+body{
+    display: grid;
+    grid-template-columns: 0.9fr 4fr;
+}
 #navbar{
-    position: fixed
-    height: 100%;
-    width: 15vw;
+    top: 0;
+    left: 0;
     border-right: solid;
-    
+    position: sticky;
+    height: 100vh;
 }
 #navbar li{
-    padding-top: 10px;
-    border-top: solid 1px;
     list-style: none;
+    left: 0;
+    border-top: solid;
 }
-#navbar li a {
+#navbar a{
     text-decoration: none;
-    color: inherit;
+    color: inherit
 }
-
