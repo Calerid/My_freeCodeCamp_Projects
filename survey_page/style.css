@@ -1,14 +1,44 @@
+body{
+    background: #63B995;
+}
 H1{
     text-align: center;
 }
-p{
+p{  
+    padding: 10px;
+    background: white;
+    border-style: inset;
+    color: black;
     text-align: center;
     margin: auto;
     width: 30%;
 }
 form{
+    border-style: inset;
+    border-color: black;
+    margin: 10px 20vw 0 20vw;
     text-align: center;
     padding: 10px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-top: 5vh;
+    font-size: 2em;
+}
+label{
+    display: block;
+    text-align: start;
+}
+input[type="submit"]{
+    margin-top: 10px;;
+
+}
+#cats{
+    margin-left: auto;
+}
+#container{
+
+}
+#name, #email, #number{
+    display: block;
+    margin: 2px 0 20px 10px;
 }
