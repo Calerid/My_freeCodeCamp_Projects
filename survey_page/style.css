@@ -1,22 +1,16 @@
 body{
-    background: #63B995;
+    background: #1e4736;
 }
 H1{
     text-align: center;
 }
 p{  
-    padding: 10px;
-    background: white;
-    border-style: inset;
-    color: black;
-    text-align: center;
     margin: auto;
-    width: 30%;
+    padding: 14vh;
 }
 form{
     border-style: inset;
     border-color: black;
-    margin: 10px 20vw 0 20vw;
     text-align: center;
     padding: 10px;
     margin-left: 20vh;
