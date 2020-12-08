@@ -1,0 +1,18 @@
+/* Nav Section*/
+#navbar{
+    position: fixed
+    height: 100%;
+    width: 15vw;
+    border-right: solid;
+    
+}
+#navbar li{
+    padding-top: 10px;
+    border-top: solid 1px;
+    list-style: none;
+}
+#navbar li a {
+    text-decoration: none;
+    color: inherit;
+}
+
