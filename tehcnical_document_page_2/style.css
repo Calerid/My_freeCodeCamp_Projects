@@ -1,8 +1,18 @@
 body{
     background: rgb(43, 41, 41);
+    font-weight: 400;
 }
 main{
     color: #ffffff;
+}
+code{
+    color: rgba(255, 255, 255, 0.705);
+    display: block;
+    white-space: pre-wrap;
+    padding: 5px 10px 15px 0px;
+    background-color: rgb(143, 138, 138);
+    font-weight: 900;
+    width: 90%;
 }
 #container{
     display: flex;
@@ -37,7 +47,7 @@ main{
 
 }
 #navbar::-webkit-scrollbar{
-    background-color: #355e68;
+    background-color: #25525e;
     width: 10px;
     border-radius: 20px;
     
@@ -56,6 +66,6 @@ main{
 #main h1{
     font-weight: 200;
 }
-.nav-link:hover{
+.nav-class:hover{
     margin-right: 40px;
 }
