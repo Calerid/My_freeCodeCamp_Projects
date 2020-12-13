@@ -1,21 +1,83 @@
-/* NAV elements */
-body{
-    display: grid;
-    grid-template-columns: 0.9fr 4fr;
+html::-webkit-scrollbar{
+    background-color: #25525e;
+    width: 10px;
+    border-radius: 20px;
+    
 }
-#navbar{
-    top: 0;
-    left: 0;
-    border-right: solid;
+html::-webkit-scrollbar-thumb{
+    background-color: red;
+    height: 20px;
+    border-radius: 20px;
+}
+body{
+    background: rgb(36, 33, 33);
+    font-weight: 400;
+    font-size: 1.15em;
+}
+main{
+    color: #ffffff;
+}
+code{
+    color: rgba(255, 255, 255, 0.705);
+    display: block;
+    white-space: pre-wrap;
+    padding: 5px 10px 20px 0px;
+    background-color: rgb(83, 32, 32);
+    font-weight: 900;
+    width: 90%;
+}
+#container{
+    display: flex;
+    grid-template-columns: 15% 85%;
+}
+#navbar {
     position: sticky;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 0;
+    bottom: 0;
     height: 100vh;
+    min-width: 260px;
+    border-right: solid 3px;
+}
+#navbar h2{
+    text-align: center;
+    color: #ffffff;
+}
+#navbar li a{   
+    font-weight: 800;
+    color: #ffffff; 
+    text-decoration: none;
 }
 #navbar li{
     list-style: none;
-    left: 0;
-    border-top: solid;
+    text-align: left;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px;
+    background: #004800;
+
 }
-#navbar a{
-    text-decoration: none;
-    color: inherit
+#navbar::-webkit-scrollbar{
+    background-color: #25525e;
+    width: 10px;
+    border-radius: 20px;
+    
+}
+#navbar::-webkit-scrollbar-thumb{
+    background-color: red;
+    height: 20px;
+    border-radius: 20px;
+}
+
+#main{
+    text-align: left;
+    margin-left: 20px;
+    
+}
+#main h1{
+    font-weight: 200;
+}
+.nav-class:hover{
+    margin-right: 30px;
 }
