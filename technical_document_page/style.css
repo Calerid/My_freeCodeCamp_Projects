@@ -28,7 +28,6 @@ code{
 }
 #container{
     display: flex;
-    grid-template-columns: 15% 85%;
 }
 #navbar {
     position: sticky;
@@ -69,7 +68,6 @@ code{
     height: 20px;
     border-radius: 20px;
 }
-
 #main{
     text-align: left;
     margin-left: 20px;
@@ -80,4 +78,27 @@ code{
 }
 .nav-class:hover{
     margin-right: 30px;
+}
+@media screen and (max-width: 920px) {
+    #container{
+        display: initial;
+        grid-template-rows: 1fr 2fr;
+        width: auto;
+    }
+    #navbar{
+        display: block;
+        width: 100wv;
+        height: 250px;
+        overflow-y: scroll;
+        position: absolute;
+    }
+    #navbar ul{
+        margin: 0px;
+        width: 100%;
+    }
+    #navbar li{
+        margin: 0px;
+        width: auto;
+    }
+
 }
