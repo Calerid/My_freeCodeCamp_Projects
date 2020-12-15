@@ -1,23 +1,31 @@
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
     background-color: #25525e;
     width: 10px;
     border-radius: 20px;
-    
 }
-html::-webkit-scrollbar-thumb{
+
+html::-webkit-scrollbar-thumb {
     background-color: red;
     height: 20px;
     border-radius: 20px;
 }
-body{
+
+body {
     background: rgb(36, 33, 33);
     font-weight: 400;
     font-size: 1.15em;
 }
-main{
+
+main {
     color: #ffffff;
 }
-code{
+
+header {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+code {
     color: rgba(255, 255, 255, 0.705);
     display: block;
     white-space: pre-wrap;
@@ -26,10 +34,13 @@ code{
     font-weight: 900;
     width: 90%;
 }
-#container{
+
+#container {
     display: flex;
 }
+
 #navbar {
+    color: white;
     position: sticky;
     overflow: scroll;
     overflow-x: hidden;
@@ -39,70 +50,82 @@ code{
     min-width: 260px;
     border-right: solid 3px;
 }
-#navbar h2{
+
+#navbar h2 {
     text-align: center;
     color: #ffffff;
 }
-#navbar li a{   
+
+#navbar li a {
     font-weight: 800;
-    color: #ffffff; 
+    color: #ffffff;
     text-decoration: none;
 }
-#navbar li{
+
+#navbar li {
     list-style: none;
     text-align: left;
     padding: 20px 40px;
     margin-bottom: 10px;
     border-bottom: solid 1px;
     background: #004800;
-
 }
-#navbar::-webkit-scrollbar{
+
+#navbar::-webkit-scrollbar {
     background-color: #25525e;
     width: 10px;
     border-radius: 20px;
-    
 }
-#navbar::-webkit-scrollbar-thumb{
+
+#navbar::-webkit-scrollbar-thumb {
     background-color: red;
     height: 20px;
     border-radius: 20px;
 }
-#main{
+
+#main {
     text-align: left;
     margin-left: 20px;
-    
 }
-#main h1{
-    font-weight: 200;
-}
-.nav-class:hover{
+
+.nav-class:hover {
     margin-right: 30px;
 }
+
 @media screen and (max-width: 920px) {
-    #container{
+    html::-webkit-scrollbar {
+        background-color: #25525e;
+        width: 10px;
+        border-radius: 20px;
+    }
+    html::-webkit-scrollbar-thumb {
+        background-color: red;
+        height: 20px;
+        border-radius: 20px;
+    }
+    ul,
+    li {
+        padding: 0;
+    }
+    #container {
         display: initial;
         grid-template-rows: 1fr 2fr;
         width: auto;
     }
-    #navbar{
-        width: 100wv;
+    #navbar {
+        width: 100vw;
         height: 250px;
         border: none;
         margin: 0;
         padding: 0;
     }
-    #navbar ul{
+    #navbar ul {
         margin: 0px;
         width: 100%;
         overflow-y: scroll;
     }
-    #navbar li{
+    #navbar li {
         margin: 0px;
         width: auto;
     }
-    #JavaScript_and_Java {
-        display: absolute;
-    }
-
 }
